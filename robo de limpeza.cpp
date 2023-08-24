@@ -12,15 +12,15 @@ int main() {
     printf("Insira o comprimento da area a ser limpa: ");
     scanf("%d", &comprimento);
 
-    // Calcular a ·rea do local
+    // Calcular a √°rea do local
     area = largura * comprimento;
     printf("A area tem %d metros quadrados.\n", area);
 
-    // Calcular o tempo que o robÙ levar· para limp·-lo
+    // Calcular o tempo que o rob√¥ levar√° para limp√°-lo
     tempo = (int) ceil((double) area / 5.0);
 
-    // Imprimir a saÌda
-    printf("O roba de limpeza TimeCleaner levara %d minutos para limpar a sala.\n", tempo);
+    // Imprimir a sa√≠da
+    printf("O robo de limpeza TimeCleaner levara %d minutos para limpar a sala.\n", tempo);
 
     return 0;
 }
